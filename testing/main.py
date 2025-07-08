@@ -25,7 +25,6 @@ def fetch_with_playwright(url):
         browser.close()
         return html
 
-
 def fetch_html(url):
     resp = requests.get(url, headers=HEADERS, timeout=10)
     resp.raise_for_status()
@@ -53,6 +52,8 @@ def parse_all_listings(html):
 def parse_products_from_listings(listings):
     products = []
     for href in listings:
+        if href is None:
+            continue
         html = fetch_with_playwright("https://www.mec.ca" + href)
         soup = BeautifulSoup(html, "html.parser")
         a_title = soup.select_one("h1[class*='Product_productName__tJ1B2 Heading_heading3__cn__v']")
