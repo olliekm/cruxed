@@ -1,4 +1,5 @@
 import Dither from "@/components/Dither";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -25,6 +26,11 @@ export default function Home() {
       <div className="fixed flex flex-col space-y-4">
         <h1 className="text-5xl font-semibold">cruxed</h1>
         <h2>Compare climbing shoe prices across websites</h2>
+        <div className="flex shadow-2xl bg-neutral-800 rounded-2xl divide-x-[1px] divide-black w-min">
+          <Link className="p-4" href={'/search/'}>Shoes</Link>
+          <Link className="p-4" href={'/retailers'}>Retailers</Link>
+          <Link className="p-4" href={'/discussion'}>Discussion</Link>
+        </div>
         <div className="flex shadow-2xl bg-neutral-800 rounded-2xl divide-x-[1px] divide-black">
           <input type="text" placeholder="Search shoes..." className=" p-4 w-96 focus:outline-none" />
           <button className="px-4 cursor-pointer">Search</button>
