@@ -1,6 +1,9 @@
 import React from 'react'
+import OutletsFilter from '@/components/OutletsFilter'
 
 function SearchLayout({children}) {
+
+
   return (
     <div className='h-screen w-full flex bg-neutral-100 justify-center text-black overflow-hidden'>
         <div className="w-3xl h-screen flex-col">
@@ -12,7 +15,15 @@ function SearchLayout({children}) {
             {/* // Main content area */}
             <div className="flex h-full relative">
                 {/* // Sidebar */}
-                <div className="w-64 h-full bg-neutral-400"></div>
+                <div className="w-64 h-full bg-neutral-400/0 flex flex-col">
+                  {/* Outlets */}
+                  <OutletsFilter />
+
+
+                  {/* Price */}
+
+                  {/* Outlets */}
+                </div>
                 {/* // Content area */}
                 <div className="flex-1 ">
                 {children}
