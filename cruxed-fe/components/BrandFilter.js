@@ -6,13 +6,24 @@ export default function BrandFilter() {
 
   const router = useRouter();
   const searchParams = useSearchParams();
+  const parseBrands = () =>
+    searchParams
+      .get("brands")
+      ?.split(",")
+      .map((s) => s.trim())
+      .filter(Boolean) ?? [];
 
   const brands = ["Scarpa", "La Sportiva", "Madrock", "FiveTen", "Black Diamond", "Evolv", "Tenaya", "Butora", "Ocun", "Red Chili"];
   
-  const inistialBrands = searchParams.get("brands") ? searchParams.get("brands").split(",") : [];
-
-  const [selectedBrands, setSelectedBrands] = useState([]);
+  const [selectedBrands, setSelectedBrands] = useState(parseBrands());
   const [searchBrands, setSearchBrands] = useState("");
+
+  useEffect(() => {
+    setSelectedBrands(parseBrands());
+    console.log(selectedBrands)
+  }, [searchParams.toString()]);
+
+
 
   useEffect(() => {
     const params = new URLSearchParams(searchParams.toString());

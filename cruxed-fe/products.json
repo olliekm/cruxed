@@ -17,7 +17,7 @@
       "42.5",
       "43"
     ],
-    "outlets": ["mec"]
+    "outlets": ["MEC"]
   },
   {
     "name": "Evolv Defy Climbing Shoes - Unisex",
@@ -38,7 +38,7 @@
       "46",
       "47"
     ],
-    "outlets": ["mec"]
+    "outlets": ["MEC"]
   },
   {
     "name": "La Sportiva Finale Climbing Shoes - Women's",
@@ -63,7 +63,7 @@
       "41.5",
       "42"
     ],
-    "outlets": ["mec"]
+    "outlets": ["MEC"]
   },
   {
     "name": "Scarpa Instinct VS Climbing Shoes - Unisex",
@@ -88,7 +88,7 @@
       "46",
       "48"
     ],
-    "outlets": ["mec"]
+    "outlets": ["MEC"]
   },
   {
     "name": "La Sportiva Kubo Climbing Shoes - Women's",
@@ -113,7 +113,7 @@
       "41",
       "41.5"
     ],
-    "outlets": ["mec"]
+    "outlets": ["MEC"]
   },
   {
     "name": "Black Diamond Method S Climbing Shoes - Men's",
@@ -133,7 +133,7 @@
       "12.5",
       "13"
     ],
-    "outlets": ["mec"]
+    "outlets": ["MEC"]
   },
   {
     "name": "La Sportiva Katana Lace Climbing Shoes - Men's",
@@ -156,7 +156,7 @@
       "44",
       "44.5"
     ],
-    "outlets": ["mec"]
+    "outlets": ["MEC"]
   },
   {
     "name": "La Sportiva Solution Climbing Shoes - Men's",
@@ -184,7 +184,7 @@
       "45",
       "46"
     ],
-    "outlets": ["mec"]
+    "outlets": ["MEC"]
   },
   {
     "name": "Scarpa Vapor LV Climbing Shoes - Unisex",
@@ -204,7 +204,7 @@
       "40.5",
       "41"
     ],
-    "outlets": ["mec"]
+    "outlets": ["MEC"]
   },
   {
     "name": "Scarpa Vapor V Climbing Shoes - Unisex",
@@ -232,6 +232,6 @@
       "48",
       "49"
     ],
-    "outlets": ["mec"]
+    "outlets": ["MEC"]
   }
 ]

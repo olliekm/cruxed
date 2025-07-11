@@ -8,11 +8,21 @@ export default function OutletsFilter() {
   const searchParams = useSearchParams();
 
   const outlets = ["MEC", "REI", "Climb Smart Shop", "Bloc Shop", "SAIL"];
-  
-  const inistialOutlets = searchParams.get("outlets") ? searchParams.get("outlets").split(",") : [];
 
-  const [selectedOutlets, setSelectedOutlets] = useState([]);
+  const parseOutlets = () =>
+    searchParams
+      .get("outlets")
+      ?.split(",")
+      .map((s) => s.trim())
+      .filter(Boolean) ?? [];
+
+
+  const [selectedOutlets, setSelectedOutlets] = useState(parseOutlets());
   const [searchOutlet, setSearchOutlet] = useState("");
+  
+  useEffect(() => {
+    setSelectedOutlets(parseOutlets());
+  }, [searchParams.toString()]);
 
   useEffect(() => {
     const params = new URLSearchParams(searchParams.toString());
