@@ -37,6 +37,8 @@ function page() {
     .split(",")
     .map((s) => s.trim())
     .filter(Boolean);
+  const rawSearch = params.get("search") || "";
+
 
   // --- parse brand filter ---
   const rawBrands = params.get("brands") || "";
@@ -55,7 +57,11 @@ function page() {
       selectedBrands.length > 0
         ? selectedBrands.includes(shoe.brand)
         : true
-    );
+    ).filter(shoe =>
+    shoe.name
+        .toLowerCase()
+        .includes(rawSearch.trim().toLowerCase())
+    )
   return (
     <div className="p-4 space-y-4">
       {filtered.map((shoe) => (

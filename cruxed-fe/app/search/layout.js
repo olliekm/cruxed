@@ -1,9 +1,23 @@
-import React from 'react'
+"use client"
+import React, {useState, useEffect} from 'react'
 import OutletsFilter from '@/components/OutletsFilter'
 import BrandFilter from '@/components/BrandFilter'
+import { useSearchParams, useRouter} from "next/navigation";
+
 
 function SearchLayout({children}) {
-
+  const [searchWord, setSearchWord] = useState("")
+  const router = useRouter();
+  const searchParams = useSearchParams(); 
+  useEffect(() => {
+    const params = new URLSearchParams(searchParams.toString());
+    if( searchWord.length > 0) {
+      params.set("search", searchWord.trim());
+    } else {
+      params.delete("search");
+    }
+    router.push(`?${params.toString()}`, {shallow: true});
+  }, [searchWord])
 
   return (
     <div className='h-screen w-full flex bg-neutral-100 justify-center text-black overflow-hidden'>
@@ -11,7 +25,7 @@ function SearchLayout({children}) {
             {/* // Header */}
             <div className="w-full flex justify-between p-4 space-x-4">
                 <h1 className="text-5xl font-semibold text-neutral-900">cruxed.</h1>      
-                <input type="text" placeholder='Search shoes...' className='bg-neutral-200 px-4 focus:outline-none rounded-xl flex-1' />
+                <input value={searchWord} onChange={(e) => setSearchWord(e.target.value)} type="text" placeholder='Search shoes...' className='bg-neutral-200 px-4 focus:outline-none rounded-xl flex-1' />
             </div>
             {/* // Main content area */}
             <div className="flex h-full relative">
