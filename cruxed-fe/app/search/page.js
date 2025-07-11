@@ -4,41 +4,41 @@ import ShoeListing from '@/components/ShoeListing'
 import { useSearchParams } from "next/navigation";
 import Products from '../../products.json'
 
-const listings = [
-  {
-    name: "Scarpa Drago LV",
-    brand: "Scarpa",
-    lowestPrice: "209.95",
-    outlets: ["MEC", "REI", "Climb Smart Shop"],
-  },
-  {
-    name: "Scarpa Instinct VSR LV",
-    brand: "Scarpa",
-    lowestPrice: "220.00",
-    outlets: ["MEC", "REI", "Climb Smart Shop"],
-  },
-  {
-    name: "Scarpa Origin VS",
-    brand: "Scarpa",
-    lowestPrice: "164.99",
-    outlets: ["MEC", "REI", "Climb Smart Shop"],
-  },
-  {
-    name: "LaSportiva Solution Comp",
-    brand: "LaSportiva",
-    lowestPrice: "249.00",
-    outlets: ["Bloc Shop", "Climb Smart Shop"],
-  },
-];
+// const listings = [
+//   {
+//     name: "Scarpa Drago LV",
+//     brand: "Scarpa",
+//     lowestPrice: "209.95",
+//     outlets: ["MEC", "REI", "Climb Smart Shop"],
+//   },
+//   {
+//     name: "Scarpa Instinct VSR LV",
+//     brand: "Scarpa",
+//     lowestPrice: "220.00",
+//     outlets: ["MEC", "REI", "Climb Smart Shop"],
+//   },
+//   {
+//     name: "Scarpa Origin VS",
+//     brand: "Scarpa",
+//     lowestPrice: "164.99",
+//     outlets: ["MEC", "REI", "Climb Smart Shop"],
+//   },
+//   {
+//     name: "LaSportiva Solution Comp",
+//     brand: "LaSportiva",
+//     lowestPrice: "249.00",
+//     outlets: ["Bloc Shop", "Climb Smart Shop"],
+//   },
+// ];
 
-// const listings = Products
+const listings = Products
 function page() {
 
   const params = useSearchParams();
   const rawOutlets = params.get("outlets") || "";
   const selectedOutlets = rawOutlets
     .split(",")
-    .map((s) => s.trim())
+    .map((s) => s.trim().toLowerCase())
     .filter(Boolean);
   const rawSearch = params.get("search") || "";
 
@@ -47,7 +47,7 @@ function page() {
   const rawBrands = params.get("brands") || "";
   const selectedBrands = rawBrands
     .split(",")
-    .map((s) => s.trim())
+    .map((s) => s.trim().toLowerCase())
     .filter(Boolean);
 
   const filtered = listings
@@ -58,7 +58,7 @@ function page() {
     )
     .filter((shoe) =>
       selectedBrands.length > 0
-        ? selectedBrands.includes(shoe.brand)
+        ? selectedBrands.includes(shoe.brand.toLowerCase())
         : true
     ).filter(shoe =>
     shoe.name
@@ -66,12 +66,12 @@ function page() {
         .includes(rawSearch.trim().toLowerCase())
     )
   return (
-    <div className="p-4 space-y-4">
+    <div className="p-4 space-y-4 overflow-auto h-full pb-40">
       {filtered.map((shoe) => (
         <ShoeListing
           key={shoe.name + shoe.lowestPrice}
           name={shoe.name}
-          lowestPrice={shoe.lowestPrice}
+          lowestPrice={shoe.price}
           outlets={shoe.outlets}
         />
       ))}

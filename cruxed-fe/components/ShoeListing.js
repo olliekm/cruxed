@@ -4,11 +4,15 @@ import Link from 'next/link'
 function ShoeListing({name, lowestPrice, outlets}) {
   return (
     <div className='p-4 space-y-4 bg-neutral-200 rounded-xl'>
-      <div className="flex justify-between items-start">
+      <div className="flex justify-between items-start space-x-4">
         <Link href={'/product/'+name}>
           <h2 className='text-xl hover:underline'>{name}</h2>
         </Link>
-        <p>Lowest Price: ${lowestPrice}</p>
+        <div className="flex flex-col">
+          <small>Lowest Price:</small>
+          <span className='text-2xl'>${lowestPrice}</span>
+        </div>
+
       </div>
       <div className="flex space-x-4">
         <h3>Available Outlets:</h3>

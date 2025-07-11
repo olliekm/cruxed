@@ -7,7 +7,7 @@ export default function BrandFilter() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  const brands = ["Scarpa", "LaSportiva", "Madrock", "FiveTen", "Black Diamond", "Evolv", "Tenaya", "Butora", "Ocun", "Red Chili"];
+  const brands = ["Scarpa", "La Sportiva", "Madrock", "FiveTen", "Black Diamond", "Evolv", "Tenaya", "Butora", "Ocun", "Red Chili"];
   
   const inistialBrands = searchParams.get("brands") ? searchParams.get("brands").split(",") : [];
 

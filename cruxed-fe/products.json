@@ -1,6 +1,7 @@
 [
   {
-    "title": "Evolv Defy LV Climbing Shoes - Unisex",
+    "name": "Evolv Defy LV Climbing Shoes - Unisex",
+    "brand": "Evolv",
     "href": "/en/product/6033-786/evolv-defy-lv-climbing-shoes-unisex?colour=Grey%2FWhite",
     "price": "140.00",
     "available_sizes": [
@@ -15,10 +16,12 @@
       "42",
       "42.5",
       "43"
-    ]
+    ],
+    "outlets": ["mec"]
   },
   {
-    "title": "Evolv Defy Climbing Shoes - Unisex",
+    "name": "Evolv Defy Climbing Shoes - Unisex",
+    "brand": "Evolv",
     "href": "/en/product/6033-777/evolv-defy-climbing-shoes-unisex?colour=Grey%2FBlack",
     "price": "140.00",
     "available_sizes": [
@@ -34,10 +37,12 @@
       "45",
       "46",
       "47"
-    ]
+    ],
+    "outlets": ["mec"]
   },
   {
-    "title": "La Sportiva Finale Climbing Shoes - Women's",
+    "name": "La Sportiva Finale Climbing Shoes - Women's",
+    "brand": "La Sportiva",
     "href": "/en/product/6018-059/la-sportiva-finale-climbing-shoes-womens?colour=Clay%2FTopaz",
     "price": "144.95",
     "available_sizes": [
@@ -57,10 +62,12 @@
       "41",
       "41.5",
       "42"
-    ]
+    ],
+    "outlets": ["mec"]
   },
   {
-    "title": "Scarpa Instinct VS Climbing Shoes - Unisex",
+    "name": "Scarpa Instinct VS Climbing Shoes - Unisex",
+    "brand": "Scarpa",
     "href": "/en/product/5031-386/scarpa-instinct-vs-climbing-shoes-unisex?colour=Grey%2FOrange",
     "price": "238.95",
     "available_sizes": [
@@ -80,10 +87,12 @@
       "45",
       "46",
       "48"
-    ]
+    ],
+    "outlets": ["mec"]
   },
   {
-    "title": "La Sportiva Kubo Climbing Shoes - Women's",
+    "name": "La Sportiva Kubo Climbing Shoes - Women's",
+    "brand": "La Sportiva",
     "href": "/en/product/6029-438/la-sportiva-kubo-climbing-shoes-womens?colour=Royal%2FLove+Potion",
     "price": "194.95",
     "available_sizes": [
@@ -103,10 +112,12 @@
       "40.5",
       "41",
       "41.5"
-    ]
+    ],
+    "outlets": ["mec"]
   },
   {
-    "title": "Black Diamond Method S Climbing Shoes - Men's",
+    "name": "Black Diamond Method S Climbing Shoes - Men's",
+    "brand": "Black Diamond",
     "href": "/en/product/6033-087/black-diamond-method-s-climbing-shoes-mens?colour=Octane",
     "price": "199.95",
     "available_sizes": [
@@ -121,10 +132,12 @@
       "12",
       "12.5",
       "13"
-    ]
+    ],
+    "outlets": ["mec"]
   },
   {
-    "title": "La Sportiva Katana Lace Climbing Shoes - Men's",
+    "name": "La Sportiva Katana Lace Climbing Shoes - Men's",
+    "brand": "La Sportiva",
     "href": "/en/product/6029-436/la-sportiva-katana-lace-climbing-shoes-mens?colour=Yellow%2FBlack",
     "price": "249.95",
     "available_sizes": [
@@ -142,10 +155,12 @@
       "43.5",
       "44",
       "44.5"
-    ]
+    ],
+    "outlets": ["mec"]
   },
   {
-    "title": "La Sportiva Solution Climbing Shoes - Men's",
+    "name": "La Sportiva Solution Climbing Shoes - Men's",
+    "brand": "La Sportiva",
     "href": "/en/product/6029-464/la-sportiva-solution-climbing-shoes-mens?colour=White%2FYellow",
     "price": "229.95",
     "available_sizes": [
@@ -168,10 +183,12 @@
       "44.5",
       "45",
       "46"
-    ]
+    ],
+    "outlets": ["mec"]
   },
   {
-    "title": "Scarpa Vapor LV Climbing Shoes - Unisex",
+    "name": "Scarpa Vapor LV Climbing Shoes - Unisex",
+    "brand": "Scarpa",
     "href": "/en/product/6032-249/scarpa-vapor-lv-climbing-shoes-unisex?colour=Smoke%2FCoral",
     "price": "228.95",
     "available_sizes": [
@@ -186,10 +203,12 @@
       "40",
       "40.5",
       "41"
-    ]
+    ],
+    "outlets": ["mec"]
   },
   {
-    "title": "Scarpa Vapor V Climbing Shoes - Unisex",
+    "name": "Scarpa Vapor V Climbing Shoes - Unisex",
+    "brand": "Scarpa",
     "href": "/en/product/6032-250/scarpa-vapor-v-climbing-shoes-unisex?colour=Smoke%2FYellow",
     "price": "228.95",
     "available_sizes": [
@@ -212,827 +231,7 @@
       "47",
       "48",
       "49"
-    ]
-  },
-  {
-    "title": "Evolv Shaman Climbing Shoes - Men's",
-    "href": "/en/product/6021-881/evolv-shaman-climbing-shoes-mens?colour=Gold%2FGrey%2FWhite",
-    "price": "225.00",
-    "available_sizes": [
-      "5",
-      "5.5",
-      "6",
-      "6.5",
-      "7",
-      "7.5",
-      "8",
-      "8.5",
-      "9",
-      "9.5",
-      "10",
-      "10.5",
-      "11",
-      "11.5",
-      "12",
-      "12.5"
-    ]
-  },
-  {
-    "title": "Salewa Wildfire Canvas Approach Shoes - Women's",
-    "href": "/en/product/6038-045/salewa-wildfire-canvas-approach-shoes-womens?colour=Oatmeal%2FBlack",
-    "price": "169.95",
-    "available_sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"]
-  },
-  {
-    "title": "La Sportiva Mandala Climbing Shoes - Unisex",
-    "href": "/en/product/6027-474/la-sportiva-mandala-climbing-shoes-unisex?colour=Chalk",
-    "price": "249.95",
-    "available_sizes": [
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44"
-    ]
-  },
-  {
-    "title": "Evolv Phantom Climbing Shoes - Men's",
-    "href": "/en/product/5064-563/evolv-phantom-climbing-shoes-mens?colour=Black%2FWhite",
-    "price": "240.00",
-    "available_sizes": [
-      "8",
-      "8.5",
-      "9",
-      "9.5",
-      "10",
-      "10.5",
-      "11",
-      "11.5",
-      "12",
-      "12.5",
-      "13"
-    ]
-  },
-  {
-    "title": "Arc'teryx Kragg Approach Shoes - Men's",
-    "href": "/en/product/6027-395/arcteryx-kragg-approach-shoes-mens?colour=Tatsu%2FAnecdote",
-    "price": "190.00",
-    "available_sizes": [
-      "UK 8",
-      "UK 9",
-      "UK 9.5",
-      "UK 10",
-      "UK 10.5",
-      "UK 11",
-      "UK 11.5",
-      "UK 12.5"
-    ]
-  },
-  {
-    "title": "Scarpa Vapor V Climbing Shoes - Women's",
-    "href": "/en/product/5062-824/scarpa-vapor-v-climbing-shoes-womens?colour=Dahlia%2FAqua",
-    "price": "159.94 - 228.95",
-    "available_sizes": [
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "39",
-      "41",
-      "41.5",
-      "42"
-    ]
-  },
-  {
-    "title": "Arc'teryx Kragg Approach Shoes - Women's",
-    "href": "/en/product/6027-398/arcteryx-kragg-approach-shoes-womens?colour=Tatsu%2FAnecdote",
-    "price": "190.00",
-    "available_sizes": [
-      "UK 4.5",
-      "UK 5",
-      "UK 5.5",
-      "UK 6",
-      "UK 6.5",
-      "UK 7",
-      "UK 7.5",
-      "UK 8",
-      "UK 8.5"
-    ]
-  },
-  {
-    "title": "Salewa Wildfire Canvas Approach Shoes - Men's",
-    "href": "/en/product/6038-041/salewa-wildfire-canvas-approach-shoes-mens?colour=Dark+Denim%2FBlack",
-    "price": "169.95",
-    "available_sizes": ["9", "9.5", "10", "10.5", "11", "12"]
-  },
-  {
-    "title": "Scarpa Drago XT Climbing Shoes - Unisex",
-    "href": "/en/product/6032-386/scarpa-drago-xt-climbing-shoes-unisex?colour=Black%2FIron",
-    "price": "258.95",
-    "available_sizes": ["39", "39.5", "40.5"]
-  },
-  {
-    "title": "La Sportiva Solution Comp Climbing Shoes - Women's",
-    "href": "/en/product/6029-467/la-sportiva-solution-comp-climbing-shoes-womens?colour=Hibiscus%2FMalibu+Blue",
-    "price": "239.95",
-    "available_sizes": ["38"]
-  },
-  {
-    "title": "Evolv Kira Climbing Shoes - Women's",
-    "href": "/en/product/6023-737/evolv-kira-climbing-shoes-womens?colour=Teal",
-    "price": "180.00",
-    "available_sizes": [
-      "6",
-      "6.5",
-      "7",
-      "7.5",
-      "8",
-      "8.5",
-      "9",
-      "9.5",
-      "10",
-      "10.5",
-      "11"
-    ]
-  },
-  {
-    "title": "Evolv Kronos Climbing Shoes - Men's",
-    "href": "/en/product/6023-736/evolv-kronos-climbing-shoes-mens?colour=Black%2FOlive",
-    "price": "180.00",
-    "available_sizes": [
-      "7",
-      "7.5",
-      "8",
-      "8.5",
-      "9",
-      "9.5",
-      "10",
-      "10.5",
-      "11",
-      "11.5",
-      "12",
-      "13"
-    ]
-  },
-  {
-    "title": "La Sportiva Tarantula Boulder Climbing Shoes - Women's",
-    "href": "/en/product/6020-485/la-sportiva-tarantula-boulder-climbing-shoes-womens?colour=Ice%2FCrystal",
-    "price": "129.95",
-    "available_sizes": [
-      "33",
-      "33.5",
-      "34",
-      "34.5",
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41"
-    ]
-  },
-  {
-    "title": "La Sportiva Tarantula Boulder Climbing Shoes - Men's",
-    "href": "/en/product/6020-442/la-sportiva-tarantula-boulder-climbing-shoes-mens?colour=Metal%2FSunset",
-    "price": "129.95",
-    "available_sizes": [
-      "34",
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45",
-      "45.5"
-    ]
-  },
-  {
-    "title": "La Sportiva Tarantula Climbing Shoes - Women's",
-    "href": "/en/product/6018-060/la-sportiva-tarantula-climbing-shoes-womens?colour=Red+Plum",
-    "price": "119.95",
-    "available_sizes": [
-      "33",
-      "33.5",
-      "34",
-      "34.5",
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5"
-    ]
-  },
-  {
-    "title": "La Sportiva Tarantulace Climbing Shoes - Men's",
-    "href": "/en/product/6018-047/la-sportiva-tarantulace-climbing-shoes-mens?colour=Olive%2FTiger",
-    "price": "119.95",
-    "available_sizes": [
-      "34",
-      "34.5",
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45",
-      "45.5",
-      "46",
-      "46.5",
-      "47",
-      "47.5",
-      "48"
-    ]
-  },
-  {
-    "title": "La Sportiva Finale Climbing Shoes - Men's",
-    "href": "/en/product/6018-041/la-sportiva-finale-climbing-shoes-mens?colour=Aloe%2FMoss",
-    "price": "144.95",
-    "available_sizes": [
-      "37",
-      "37.5",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45",
-      "45.5",
-      "46",
-      "46.5",
-      "47"
-    ]
-  },
-  {
-    "title": "Scarpa Veloce Climbing Shoes - Women's",
-    "href": "/en/product/6005-426/scarpa-veloce-climbing-shoes-womens?colour=Light+Grey%2F+Maldive",
-    "price": "198.95",
-    "available_sizes": [
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42"
-    ]
-  },
-  {
-    "title": "Scarpa Veloce Climbing Shoes - Men's",
-    "href": "/en/product/6005-425/scarpa-veloce-climbing-shoes-mens?colour=Black%2FYellow",
-    "price": "198.95",
-    "available_sizes": [
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45",
-      "45.5",
-      "46",
-      "47",
-      "48",
-      "49",
-      "50"
-    ]
-  },
-  {
-    "title": "Scarpa Helix Climbing Shoes - Men's",
-    "href": "/en/product/5044-814/scarpa-helix-climbing-shoes-mens?colour=Hyper+Blue",
-    "price": "148.95",
-    "available_sizes": [
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45",
-      "45.5",
-      "46",
-      "46.5",
-      "47",
-      "48",
-      "49",
-      "50"
-    ]
-  },
-  {
-    "title": "Scarpa Crux Approach Shoes - Women's",
-    "href": "/en/product/6032-585/scarpa-crux-approach-shoes-womens?colour=Shark%2FLavender",
-    "price": "198.95",
-    "available_sizes": [
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42"
-    ]
-  },
-  {
-    "title": "La Sportiva TX4 Evo Approach Shoes - Women's",
-    "href": "/en/product/6027-976/la-sportiva-tx4-evo-approach-shoes-womens?colour=Carbon%2FZest",
-    "price": "209.95",
-    "available_sizes": [
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42"
-    ]
-  },
-  {
-    "title": "Scarpa Origin VS Climbing Shoes - Men's",
-    "href": "/en/product/6027-627/scarpa-origin-vs-climbing-shoes-mens?colour=Petrol+%2F+Lime",
-    "price": "168.95",
-    "available_sizes": [
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45",
-      "45.5",
-      "46",
-      "47",
-      "48"
-    ]
-  },
-  {
-    "title": "Scarpa Force Climbing Shoes - Women's",
-    "href": "/en/product/6027-624/scarpa-force-climbing-shoes-womens?colour=Conifer+%2F+Coral",
-    "price": "208.95",
-    "available_sizes": [
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41"
-    ]
-  },
-  {
-    "title": "Scarpa Force Climbing Shoes - Men's",
-    "href": "/en/product/6027-623/scarpa-force-climbing-shoes-mens?colour=Conifer+%2F+Azure",
-    "price": "208.95",
-    "available_sizes": [
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45",
-      "45.5",
-      "46",
-      "46.5",
-      "47",
-      "48",
-      "49",
-      "50"
-    ]
-  },
-  {
-    "title": "Scarpa Origin VS Climbing Shoes - Women's",
-    "href": "/en/product/6027-630/scarpa-origin-vs-climbing-shoes-womens?colour=Pastel+Green%2FLime",
-    "price": "168.95",
-    "available_sizes": [
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42"
-    ]
-  },
-  {
-    "title": "La Sportiva Tarantulace Climbing Shoes - Women's",
-    "href": "/en/product/6026-523/la-sportiva-tarantulace-climbing-shoes-womens?colour=Topaz%2FRed+Plum",
-    "price": "119.95",
-    "available_sizes": [
-      "33",
-      "33.5",
-      "34",
-      "34.5",
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42"
-    ]
-  },
-  {
-    "title": "La Sportiva Stickit Climbing Shoes - Children to Youths",
-    "href": "/en/product/5021-140/la-sportiva-stickit-climbing-shoes-children-to-youths?colour=Chili%2FPoppy",
-    "price": "69.95",
-    "available_sizes": ["26/27", "28/29", "30/31", "32/33", "34/35"]
-  },
-  {
-    "title": "La Sportiva Tarantula Junior Climbing Shoes",
-    "href": "/en/product/6032-205/la-sportiva-tarantula-junior-climbing-shoes?colour=Yellow%2FBlack",
-    "price": "99.95",
-    "available_sizes": ["29", "30", "31", "32", "33"]
-  },
-  {
-    "title": "Scarpa Quantic Climbing Shoes - Women's",
-    "href": "/en/product/6014-143/scarpa-quantic-climbing-shoes-womens?colour=Dust+Gray%2FBlack",
-    "price": "110.93",
-    "available_sizes": [
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42"
-    ]
-  },
-  {
-    "title": "Scarpa Generator V Climbing Shoes - Women's",
-    "href": "/en/product/6027-626/scarpa-generator-v-climbing-shoes-womens?colour=Light+Gray+%2F+Lilac",
-    "price": "159.94",
-    "available_sizes": [
-      "35",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41"
-    ]
-  },
-  {
-    "title": "Black Diamond Momentum Climbing Shoes - Children",
-    "href": "/en/product/5063-484/black-diamond-momentum-climbing-shoes-children?colour=Envy+Green",
-    "price": "59.94",
-    "available_sizes": ["1", "2", "3", "4", "11", "12", "13"]
-  },
-  {
-    "title": "Black Diamond Momentum Climbing Shoes - Women's",
-    "href": "/en/product/5053-097/black-diamond-momentum-climbing-shoes-womens?colour=Black%2FAlloy",
-    "price": "89.94",
-    "available_sizes": [
-      "5",
-      "5.5",
-      "6",
-      "6.5",
-      "7",
-      "7.5",
-      "8",
-      "8.5",
-      "9",
-      "9.5",
-      "10",
-      "10.5"
-    ]
-  },
-  {
-    "title": "Evolv Elektra Lace Climbing Shoes - Women's",
-    "href": "/en/product/6012-910/evolv-elektra-lace-climbing-shoes-womens?colour=Silk+White%2FGrape",
-    "price": "99.94",
-    "available_sizes": [
-      "6",
-      "6.5",
-      "7",
-      "7.5",
-      "8",
-      "8.5",
-      "9",
-      "9.5",
-      "10",
-      "10.5",
-      "11"
-    ]
-  },
-  {
-    "title": "La Sportiva Tarantula Climbing Shoes - Men's",
-    "href": "/en/product/6018-043/la-sportiva-tarantula-climbing-shoes-mens?colour=Black%2FPoppy",
-    "price": "119.95",
-    "available_sizes": [
-      "34",
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45",
-      "45.5",
-      "46",
-      "46.5",
-      "47",
-      "48"
-    ]
-  },
-  {
-    "title": "Scarpa Quantic Climbing Shoes - Men's",
-    "href": "/en/product/6014-142/scarpa-quantic-climbing-shoes-mens?colour=Dust+Gray%2FMango",
-    "price": "99.92 - 110.93",
-    "available_sizes": [
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45",
-      "45.5",
-      "46",
-      "47",
-      "48",
-      "49",
-      "50"
-    ]
-  },
-  {
-    "title": "La Sportiva Theory Climbing Shoes - Men's",
-    "href": "/en/product/6029-471/la-sportiva-theory-climbing-shoes-mens?colour=Yellow%2FBlack",
-    "price": "239.95",
-    "available_sizes": [
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45"
-    ]
-  },
-  {
-    "title": "Scarpa Helix Climbing Shoes - Women's",
-    "href": "/en/product/5044-815/scarpa-helix-climbing-shoes-womens?colour=Mandarin+Red",
-    "price": "148.95",
-    "available_sizes": [
-      "35",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42"
-    ]
-  },
-  {
-    "title": "Evolv V6 LV Climbing Shoes - Unisex",
-    "href": "/en/product/6027-859/evolv-v6-lv-climbing-shoes-unisex?colour=Grey%2FWhite",
-    "price": "200.00",
-    "available_sizes": [
-      "5",
-      "5.5",
-      "6",
-      "6.5",
-      "7",
-      "7.5",
-      "8",
-      "8.5",
-      "9",
-      "9.5",
-      "10",
-      "10.5"
-    ]
-  },
-  {
-    "title": "Evolv Shaman LV Climbing Shoes - Unisex",
-    "href": "/en/product/6027-857/evolv-shaman-lv-climbing-shoes-unisex?colour=Beet+Red%2FSlate",
-    "price": "225.00",
-    "available_sizes": [
-      "5",
-      "5.5",
-      "6",
-      "6.5",
-      "7",
-      "7.5",
-      "8",
-      "8.5",
-      "9",
-      "9.5",
-      "10",
-      "10.5"
-    ]
-  },
-  {
-    "title": "La Sportiva Mantra Climbing Shoes - Unisex",
-    "href": "/en/product/6027-475/la-sportiva-mantra-climbing-shoes-unisex?colour=Chalk",
-    "price": "199.95",
-    "available_sizes": [
-      "35.5",
-      "36",
-      "36.5",
-      "37",
-      "37.5",
-      "38",
-      "38.5",
-      "39",
-      "39.5",
-      "40",
-      "40.5",
-      "41",
-      "41.5",
-      "42",
-      "42.5",
-      "43",
-      "43.5",
-      "44",
-      "44.5",
-      "45",
-      "46"
-    ]
-  },
-  {
-    "title": "Norda 003 Laceless Approach Light Trail Shoes - Women's",
-    "href": "/en/product/6033-924/norda-003-laceless-approach-light-trail-shoes-womens?colour=Ash",
-    "price": "294.95",
-    "available_sizes": ["6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"]
+    ],
+    "outlets": ["mec"]
   }
 ]
