@@ -1,5 +1,6 @@
 import React from 'react'
 import OutletsFilter from '@/components/OutletsFilter'
+import BrandFilter from '@/components/BrandFilter'
 
 function SearchLayout({children}) {
 
@@ -18,7 +19,8 @@ function SearchLayout({children}) {
                 <div className="w-64 h-full bg-neutral-400/0 flex flex-col">
                   {/* Outlets */}
                   <OutletsFilter />
-
+                  {/* Brands */}
+                  <BrandFilter/>
 
                   {/* Price */}
 
