@@ -58,6 +58,8 @@ def parse_products_from_listings(listings):
         soup = BeautifulSoup(html, "html.parser")
         a_title = soup.select_one("h1[class*='Product_productName__tJ1B2 Heading_heading3__cn__v']")
         title = a_title.get_text(strip=True) if a_title else None
+        a_brand = soup.select_one("div[class*='Product_brandURL__RcEW_'] > a")
+        a_brand = a_brand.get_text(strip=True) if a_title else None
         price = soup.select_one("strong[class*='ProductPrice_actualPrice__s6LXi']")
         price = price.get_text(strip=True) if price else None
         if price:
@@ -76,7 +78,7 @@ def parse_products_from_listings(listings):
                 available_sizes.append(text)
                 # 3) fetch each listing
         product = {
-            "title": title,
+            "name": title,
             "href": href,
             "price": price, 
             "available_sizes": available_sizes

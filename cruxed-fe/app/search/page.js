@@ -2,6 +2,7 @@
 import React from 'react'
 import ShoeListing from '@/components/ShoeListing'
 import { useSearchParams } from "next/navigation";
+import Products from '../../products.json'
 
 const listings = [
   {
@@ -30,7 +31,9 @@ const listings = [
   },
 ];
 
+// const listings = Products
 function page() {
+
   const params = useSearchParams();
   const rawOutlets = params.get("outlets") || "";
   const selectedOutlets = rawOutlets
