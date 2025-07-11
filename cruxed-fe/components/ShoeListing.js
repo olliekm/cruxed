@@ -15,7 +15,7 @@ function ShoeListing({name, lowestPrice, outlets}) {
         <div className="">
           {
             outlets.map((outlet, index) => (
-              <span key={index} className="bg-neutral-300 px-3 py-1 text-sm rounded-full mr-2">
+              <span key={index} className="bg-neutral-300 p-1 px-2 text-sm rounded-md mr-2">
                 {outlet}
               </span>
             ))
