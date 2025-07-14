@@ -1,14 +1,22 @@
 "use client"
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useTransition, useRef} from 'react'
 import OutletsFilter from '@/components/OutletsFilter'
 import BrandFilter from '@/components/BrandFilter'
 import { useSearchParams, useRouter} from "next/navigation";
 import Link from 'next/link';
 
 function SearchLayout({children}) {
-  const [searchWord, setSearchWord] = useState("")
   const router = useRouter();
   const searchParams = useSearchParams(); 
+
+  const parseSearch = () =>
+    searchParams
+      .get("search")
+
+  const [isPending, startTransition] = useTransition()
+  const [searchWord, setSearchWord] = useState(parseSearch() || "");
+  const inputRef = useRef(null);
+
   useEffect(() => {
     const params = new URLSearchParams(searchParams.toString());
     if( searchWord.length > 0) {
@@ -19,6 +27,20 @@ function SearchLayout({children}) {
     router.push(`?${params.toString()}`, {shallow: true});
   }, [searchWord])
 
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    const q = searchWord.trim()
+    // build querystring
+    const qs = q
+      ? `?search=${encodeURIComponent(q)}`
+      : ''
+    // navigate to /search + qs
+    router.push(`/search${qs}`)
+  }
+
+
   return (
     <div className='h-screen w-full flex bg-neutral-100 justify-center text-black overflow-hidden'>
         <div className="w-3xl h-screen flex-col">
@@ -27,7 +49,16 @@ function SearchLayout({children}) {
                 <Link href={'/search'}>
                   <h1 className="text-5xl font-semibold text-neutral-900">cruxed.</h1>
                 </Link>
-                <input value={searchWord} onChange={(e) => setSearchWord(e.target.value)} type="text" placeholder='Search shoes...' className='bg-neutral-200 px-4 focus:outline-none rounded-xl flex-1' />
+                <form onSubmit={handleSubmit} className="flex-1">
+                  <input
+                    id="search-input"
+                    type="text"
+                    value={searchWord}
+                    onChange={e => setSearchWord(e.target.value)}
+                    placeholder="Search shoes…"
+                    className="bg-neutral-200 px-4 h-full rounded-xl flex-1 focus:outline-none w-full"
+                  />
+                </form>
             </div>
             {/* // Main content area */}
             <div className="flex h-full relative">

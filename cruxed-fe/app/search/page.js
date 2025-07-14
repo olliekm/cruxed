@@ -72,7 +72,7 @@ function page() {
           key={shoe.name + shoe.lowestPrice}
           name={shoe.name}
           lowestPrice={shoe.price}
-          outlets={shoe.outlets}
+          outlets={["MEC"]}
         />
       ))}
       {filtered.length === 0 && (
