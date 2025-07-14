@@ -1,7 +1,10 @@
+"use client"
+import { useState } from "react";
 import Dither from "@/components/Dither";
 import Link from "next/link";
 
 export default function Home() {
+  const [search, setSearch] = useState("")
   return (
     <div className="w-full h-screen bg-neutral-900 flex justify-center items-center">
         <Dither
@@ -32,8 +35,12 @@ export default function Home() {
           <Link className="p-4" href={'/discussion'}>Discussion</Link>
         </div>
         <div className="flex shadow-2xl bg-neutral-800 rounded-2xl divide-x-[1px] divide-black">
-          <input type="text" placeholder="Search shoes..." className=" p-4 w-96 focus:outline-none" />
-          <button className="px-4 cursor-pointer">Search</button>
+          <input onChange={(e) => setSearch(e.target.value)} type="text" placeholder="Search shoes..." className=" p-4 w-96 focus:outline-none" />
+          <Link href={'/search/?search='+search} className="flex justify-center items-center">
+            <button className="px-4 cursor-pointer">
+              Search
+            </button>
+          </Link>
         </div>
       </div>
 
