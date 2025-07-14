@@ -4,28 +4,12 @@ import OutletsFilter from '@/components/OutletsFilter'
 import BrandFilter from '@/components/BrandFilter'
 import { useSearchParams, useRouter} from "next/navigation";
 import Link from 'next/link';
+import SearchBar from '@/components/SearchBar';
 
 function SearchLayout({children}) {
-  const router = useRouter();
-  const searchParams = useSearchParams(); 
 
-  const parseSearch = () =>
-    searchParams
-      .get("search")
 
-  const [isPending, startTransition] = useTransition()
-  const [searchWord, setSearchWord] = useState(parseSearch() || "");
-  const inputRef = useRef(null);
 
-  useEffect(() => {
-    const params = new URLSearchParams(searchParams.toString());
-    if( searchWord.length > 0) {
-      params.set("search", searchWord.trim());
-    } else {
-      params.delete("search");
-    }
-    router.push(`?${params.toString()}`, {shallow: true});
-  }, [searchWord])
 
 
 
@@ -49,7 +33,11 @@ function SearchLayout({children}) {
                 <Link href={'/search'}>
                   <h1 className="text-5xl font-semibold text-neutral-900">cruxed.</h1>
                 </Link>
-                <form onSubmit={handleSubmit} className="flex-1">
+                <div className="flex-1">
+                <SearchBar />
+
+                </div>
+                {/* <form onSubmit={handleSubmit} className="flex-1">
                   <input
                     id="search-input"
                     type="text"
@@ -58,7 +46,7 @@ function SearchLayout({children}) {
                     placeholder="Search shoes…"
                     className="bg-neutral-200 px-4 h-full rounded-xl flex-1 focus:outline-none w-full"
                   />
-                </form>
+                </form> */}
             </div>
             {/* // Main content area */}
             <div className="flex h-full relative">

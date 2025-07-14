@@ -66,7 +66,8 @@ function page() {
         .includes(rawSearch.trim().toLowerCase())
     )
   return (
-    <div className="p-4 space-y-4 overflow-auto h-full pb-40">
+    <div className="p-4 space-y-4 overflow-y-scroll h-full pb-40">
+      {/* {filtered.map((s) => <div key={s.name}>{s.name}</div>)} */}
       {filtered.map((shoe) => (
         <ShoeListing
           key={shoe.name + shoe.lowestPrice}
