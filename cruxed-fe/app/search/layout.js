@@ -33,10 +33,8 @@ function SearchLayout({children}) {
                 <Link href={'/search'}>
                   <h1 className="text-5xl font-semibold text-neutral-900">cruxed.</h1>
                 </Link>
-                <div className="flex-1">
-                <SearchBar />
+               <SearchBar />
 
-                </div>
                 {/* <form onSubmit={handleSubmit} className="flex-1">
                   <input
                     id="search-input"

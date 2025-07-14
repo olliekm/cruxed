@@ -20,7 +20,6 @@ export default function BrandFilter() {
 
   useEffect(() => {
     setSelectedBrands(parseBrands());
-    console.log(selectedBrands)
   }, [searchParams.toString()]);
 
 

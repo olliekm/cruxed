@@ -76,9 +76,9 @@ function page() {
           outlets={["MEC"]}
         />
       ))}
-      {filtered.length === 0 && (
+      {/* {filtered.length === 0 && (
         <p className="text-center text-gray-500">No shoes match these outlets.</p>
-      )}
+      )} */}
     </div>
   )
 }
